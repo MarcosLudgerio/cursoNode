@@ -18,11 +18,11 @@
   },
   "homepage": "https://github.com/MarcosLudgerio/cursoNode#readme",
   "dependencies": {
-    "axios": "^0.21.1",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "mongoose": "^5.7.5",
-    "nodemon": "^1.19.3",
-    "socket.io": "^2.4.0"
+    "axios": "*",
+    "cors": "*",
+    "express": "*",
+    "mongoose": "*",
+    "nodemon": "*",
+    "socket.io": "*"
   }
 }
