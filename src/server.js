@@ -27,16 +27,16 @@ const mongoose = require('mongoose');
 //sem ele, quando o react ou qualquer outra aplicação for acessar o banco, seria bloqueado pelo node
 const cors = require('cors');
 
-mongoose.connect("mongodb+srv://marcosLudgerio:35235638@cluster0-8nbmu.mongodb.net/cursonode?retryWrites=true&w=majority", { 
+mongoose.connect("", {
     useNewUrlParser: true,
-    useUnifiedTopology: true 
+    useUnifiedTopology: true
 });
 
 
 app.use((req, res, next) => {
     req.io = io;
     req.connectedUsers = connectedUsers;
-    
+
     return next();
 });
 
